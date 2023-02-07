@@ -1,0 +1,29 @@
+{
+  "name": "ecdsa_swift",
+  "version": "0.0.1",
+  "summary": "lightweight recombination client application for threshold ECDSA.",
+  "homepage": "https://github.com/j-labs-xyz/ecdsa_swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leven": "leven@j-labs.xyz"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/j-labs-xyz/ecdsa_swift.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "ecdsa_swift/*.{h,swift}",
+    "ecdsa_swift/libecdsa/*.{h}"
+  ],
+  "ios": {
+    "vendored_libraries": "ecdsa_swift/libecdsa/lecdsa.a"
+  },
+  "preserve_paths": "ecdsa_swift/libecdsa/*",
+  "module_map": "ecdsa_swift/Libecdsa_swift.modulemap"
+}

@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Libecdsa_swift.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework
