@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_library = 'Libecdsa_swift/libecdsa/libecdsa.a'
   s.preserve_paths = 'Libecdsa_swift/Libecdsa_swift.modulemap'
   s.module_map = "Libecdsa_swift/Libecdsa_swift.modulemap"
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
