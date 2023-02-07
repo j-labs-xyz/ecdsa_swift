@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.license             = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "leven" => "leven@j-labs.xyz" }
   s.platform            = :ios, "11.0"
+  s.module_name = 'EcdsaSwift'
+  s.swift_version = '5.5'
   s.source              = { :git => "https://github.com/j-labs-xyz/ecdsa_swift.git", :tag => s.version }
   s.source_files = 'Libecdsa_swift/*.{h,swift}','Libecdsa_swift/libecdsa/*.h'
   s.ios.vendored_library = 'Libecdsa_swift/libecdsa/libecdsa.a'
