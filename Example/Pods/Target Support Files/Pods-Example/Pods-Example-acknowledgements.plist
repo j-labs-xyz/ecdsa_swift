@@ -14,20 +14,9 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright © 1998 - 2018 Tencent. All Rights Reserved.
-</string>
-			<key>License</key>
-			<string>None</string>
-			<key>Title</key>
-			<string>MTA</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>The MIT License (MIT)
+			<string>MIT License
 
-Copyright (c) 2015 Roy Marmelstein
+Copyright (c) 2023 J Labs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -46,12 +35,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 </string>
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>Zip</string>
+			<string>Libecdsa_swift</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

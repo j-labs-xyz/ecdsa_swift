@@ -1,29 +1,16 @@
 PODS:
   - Libecdsa_swift (0.0.1)
-  - MTA (2.5.8):
-    - MTA/Core (= 2.5.8)
-  - MTA/Core (2.5.8)
-  - Zip (2.1.2)
 
 DEPENDENCIES:
-  - Libecdsa_swift (from `../Libecdsa_swift`)
-  - MTA
-  - Zip
-
-SPEC REPOS:
-  trunk:
-    - MTA
-    - Zip
+  - Libecdsa_swift (from `../`)
 
 EXTERNAL SOURCES:
   Libecdsa_swift:
-    :path: "../Libecdsa_swift"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Libecdsa_swift: dfb10615cf0a3c73bc2591af71c4fb8411c3ee33
-  MTA: 6162efbf76ce22cb15f9bd0b0322ac9c9d7a665f
-  Zip: b3fef584b147b6e582b2256a9815c897d60ddc67
+  Libecdsa_swift: 519b983e8ca34a65dd86d968e7e6ebd409b0fe4a
 
-PODFILE CHECKSUM: e4db053f20039f459cf107cae23e37a62b2d2f92
+PODFILE CHECKSUM: d950b5378961f1fc4f0c1fc0a85157beddef4957
 
 COCOAPODS: 1.11.3

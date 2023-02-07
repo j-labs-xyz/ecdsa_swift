@@ -6,138 +6,58 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		B36395EB51A1BA84075C3DD4DCCCFFE8 /* MTA */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4827A2C08A2F6FD29EF91E9259330DE0 /* Build configuration list for PBXAggregateTarget "MTA" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = MTA;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		06F57A9E92A1109840B5799739F5789B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		09B3833E675DB80CB59C8350C81DC0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		214DB630573496781FE1CA9223954DCC /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 163ACE2B694A7B778791E09F7E9D69DB /* ioapi.c */; };
-		21D7A013E4D46C527E6AC41B10B983C5 /* Zip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14476C27928CE52AC57B4D1A22978442 /* Zip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2528C5BDE1D6E311F946DD9085C0B0A2 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8BAA0B2C1AD348007233EFD0AB9FF3 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		37C262B2C68DC3D57668006089053CDC /* ZipUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B9AB92487CBABCF507817A05124A06 /* ZipUtilities.swift */; };
-		43DEE3E86469BDFB2636520B905FC7F7 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = E47B4A6C5E41CE487695CC96F00CC135 /* Minizip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4E3398A2FB4ADD6712AA9E6861DB850B /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A3CB4217C14B80F99616578A1D865 /* Zip.swift */; };
-		6B04C034156D06C3A7FAB4C6B5DEB999 /* Libecdsa_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B6C9C33D856EA7617C918F7A3F00C2 /* Libecdsa_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7816AB4B83A43BE97599ECE1A44B2B25 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 300E4CD8C012EFD02C2C5F8A34BDBF6E /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		93F21AD70ED3394EBAB05F9E4D682349 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04B40F4248F3B43831D93F8EAB975ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		091BB51AD1A6FB3C62F75DBA110B1FF5 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
+		1E08C8E337ECB4BBC5AF9AB365ECC90B /* Libecdsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7656C49CF8E55D07C61F56453D1C14F /* Libecdsa.swift */; };
+		5E7D06E88DF4199F2BC1AE6A7DA5CC39 /* Libecdsa_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B2D475B45EDFFE285FBA5A627E414F /* Libecdsa_swift-dummy.m */; };
 		9880E7A1C13F34C4186A989E933029AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7AD2F6663541243DE209D807EE445AD /* Zip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379AF05483EE1320999B3A72B48EE16 /* Zip-dummy.m */; };
-		B068B29F89D57C1FA1C301F22A76BF79 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D751DB816F060F76B500DFB215DF68A2 /* zip.c */; };
-		B7841CF90E4747FC150AA7EFA6C01723 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F132B5CD1AF7543DD41E7261607EAD /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9B84CEAE6D14073796C232D48807ABE /* Zip.h in Headers */ = {isa = PBXBuildFile; fileRef = C647CC4C78D7B532A773ABEB61E1B7D0 /* Zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD4255859413EB574B09F339243C0596 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A8ACF5EC0A6F22624094548DBC9E4B /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C34C57C2970C847AA6793E9ABBA58AF9 /* QuickZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26043D869E993D1B7789DAB1CE0A8045 /* QuickZip.swift */; };
-		C5803467A0C3508149202527E7A84988 /* libecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C3333723B26CA8805708E372D7ED1F /* libecdsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6BF48C1C7386684CAE1559C14F03931 /* Libecdsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D63BD9CEB26A0005CA9D2B767B77B /* Libecdsa.swift */; };
-		C954FF3A0701089C0E6C804ECA59F99A /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = FC8ECF3EF63142EC304DA8562542322C /* unzip.c */; };
-		DBF91097BA5810138D85A2942B76652F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		E33C5D65143B8E9223A4E7C273C0BC7B /* Libecdsa_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB63FD6E0519E385FB4B6B98F172589 /* Libecdsa_swift-dummy.m */; };
+		BDC24CE412880B82B01F720F2C0C1690 /* libecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 0213098517DEB928E1D30DE350DB7C7D /* libecdsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6007FDC8CBD7453FA343CB5BF52B7B5 /* Libecdsa_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = C239A8C096980B7B32730DED88AB506C /* Libecdsa_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB0832E68248BC2586122A5D0AA865D8 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2981AF71E16B11A7062620C80AFAEA48 /* PBXContainerItemProxy */ = {
+		B02853206E88D39C7397AA45163A6B37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B603E7E1946D161C3737F0C09E07C67;
 			remoteInfo = Libecdsa_swift;
 		};
-		5D053148C53395467EC51BA5D429499A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B36395EB51A1BA84075C3DD4DCCCFFE8;
-			remoteInfo = MTA;
-		};
-		A783BFD99CDD3E75B095BD4957B1CF40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 31708EE6929C61C0EDA6F5DAE3AF9DB7;
-			remoteInfo = Zip;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14476C27928CE52AC57B4D1A22978442 /* Zip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zip-umbrella.h"; sourceTree = "<group>"; };
-		163ACE2B694A7B778791E09F7E9D69DB /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = Zip/minizip/ioapi.c; sourceTree = "<group>"; };
+		005A8897D9D15D9EF26D1C2EC075F15F /* Libecdsa_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Libecdsa_swift-Info.plist"; sourceTree = "<group>"; };
+		0213098517DEB928E1D30DE350DB7C7D /* libecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libecdsa.h; sourceTree = "<group>"; };
+		1177FFA90AA56D2106C78BCA5DB58752 /* Libecdsa_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Libecdsa_swift.release.xcconfig; sourceTree = "<group>"; };
+		19CDAAB024B52D382FCAE54922DD325E /* Libecdsa_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Libecdsa_swift.modulemap; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2379AF05483EE1320999B3A72B48EE16 /* Zip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Zip-dummy.m"; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		26043D869E993D1B7789DAB1CE0A8045 /* QuickZip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickZip.swift; path = Zip/QuickZip.swift; sourceTree = "<group>"; };
-		2B8BAA0B2C1AD348007233EFD0AB9FF3 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = Zip/minizip/include/crypt.h; sourceTree = "<group>"; };
-		300E4CD8C012EFD02C2C5F8A34BDBF6E /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = Zip/minizip/include/unzip.h; sourceTree = "<group>"; };
+		24CDC5813326CD03BFA84D702A959A4E /* libecdsa.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libecdsa.a; path = Libecdsa_swift/libecdsa/libecdsa.a; sourceTree = "<group>"; };
+		2E7C72FB0C444207508F0936747E8792 /* Libecdsa_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Libecdsa_swift.modulemap; path = Libecdsa_swift/Libecdsa_swift.modulemap; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		33A8ACF5EC0A6F22624094548DBC9E4B /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = Zip/minizip/include/ioapi.h; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		3972818AC70A6C89D06313F904B7061C /* MTAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = SDK/MTAConfig.h; sourceTree = "<group>"; };
-		3BF7647F52DE1D5B768D35291AED73CA /* Libecdsa_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Libecdsa_swift.modulemap; sourceTree = "<group>"; };
-		42C3333723B26CA8805708E372D7ED1F /* libecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = libecdsa.h; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46747E0F455BCC82C61F7FAEA925127E /* libecdsa.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libecdsa.a; path = libecdsa/libecdsa.a; sourceTree = "<group>"; };
-		55A45A98CD98D1542DD6BE0D85C1C929 /* MTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTA.debug.xcconfig; sourceTree = "<group>"; };
-		5A9A3CB4217C14B80F99616578A1D865 /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = Zip/Zip.swift; sourceTree = "<group>"; };
-		62CD1996A1B3F23A13211D5550C2CAC2 /* Zip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Zip-Info.plist"; sourceTree = "<group>"; };
-		654BBDF4EEF930DE7C2096EEDDC1F7ED /* Libecdsa_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Libecdsa_swift-Info.plist"; sourceTree = "<group>"; };
-		6BB63FD6E0519E385FB4B6B98F172589 /* Libecdsa_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Libecdsa_swift-dummy.m"; sourceTree = "<group>"; };
+		492683CB1CD2E4C0B6F99498CBAE294C /* Libecdsa_swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Libecdsa_swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F405EA38CF2352BA44BBDF9D28929F1 /* Libecdsa_swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Libecdsa_swift-prefix.pch"; sourceTree = "<group>"; };
+		634D99B70029FA378600919F67996D42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		7C0D63BD9CEB26A0005CA9D2B767B77B /* Libecdsa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Libecdsa.swift; sourceTree = "<group>"; };
-		7E490F4FE42D97918D75C1522408419A /* Zip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zip-prefix.pch"; sourceTree = "<group>"; };
-		857CD0DC4A0B33603ADD3ADB58B86D94 /* libmtasdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmtasdk.a; path = SDK/libmtasdk.a; sourceTree = "<group>"; };
-		85B6C9C33D856EA7617C918F7A3F00C2 /* Libecdsa_swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Libecdsa_swift.h; sourceTree = "<group>"; };
-		870721C0D69A87E5B5D5CE366F6B7FBF /* Libecdsa_swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Libecdsa_swift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8760E6BC290819705893ED05A2D3BC87 /* Zip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Zip.modulemap; sourceTree = "<group>"; };
-		8C0402C6756665902889C29A8A6ED482 /* Libecdsa_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Libecdsa_swift.modulemap; sourceTree = "<group>"; };
+		89048DB958B00B414AD13D15F12CD22A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A30424352E225666E64EC75A36B3C768 /* MTA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = SDK/MTA.h; sourceTree = "<group>"; };
-		A845402EF959A57A4640F2A4F5155943 /* Zip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Zip; path = Zip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A691E1E3AFAB365F1C36C469B6B2EFF5 /* Libecdsa_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Libecdsa_swift.debug.xcconfig; sourceTree = "<group>"; };
+		A7656C49CF8E55D07C61F56453D1C14F /* Libecdsa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Libecdsa.swift; path = Libecdsa_swift/Libecdsa.swift; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		B2F132B5CD1AF7543DD41E7261607EAD /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = Zip/minizip/include/zip.h; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B900CED02537211FECD9EDE3C913D70F /* Libecdsa_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Libecdsa_swift.release.xcconfig; sourceTree = "<group>"; };
-		BD1716173114C6B569CC0130AD7D5671 /* Libecdsa_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Libecdsa_swift.debug.xcconfig; sourceTree = "<group>"; };
-		C647CC4C78D7B532A773ABEB61E1B7D0 /* Zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zip.h; path = Zip/Zip.h; sourceTree = "<group>"; };
-		C9D4F280AD57E27BA1FD70248513740E /* Libecdsa_swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Libecdsa_swift-prefix.pch"; sourceTree = "<group>"; };
-		CF536851F02841544D2DC7C856B102C5 /* Zip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zip.release.xcconfig; sourceTree = "<group>"; };
+		C239A8C096980B7B32730DED88AB506C /* Libecdsa_swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Libecdsa_swift.h; path = Libecdsa_swift/Libecdsa_swift.h; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		D751DB816F060F76B500DFB215DF68A2 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = Zip/minizip/zip.c; sourceTree = "<group>"; };
-		E47B4A6C5E41CE487695CC96F00CC135 /* Minizip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Minizip.h; path = Zip/minizip/include/Minizip.h; sourceTree = "<group>"; };
-		E4F80669A7D20B0D1EE9C67ABA570C71 /* Zip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Zip.debug.xcconfig; sourceTree = "<group>"; };
-		E8B9AB92487CBABCF507817A05124A06 /* ZipUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipUtilities.swift; path = Zip/ZipUtilities.swift; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F05251EF1BF1A7D931393172D2CA2061 /* Libecdsa_swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Libecdsa_swift; path = Libecdsa_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9F992C6E847EFD92ED948106EC8A78E /* MTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTA.release.xcconfig; sourceTree = "<group>"; };
-		FC8ECF3EF63142EC304DA8562542322C /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = Zip/minizip/unzip.c; sourceTree = "<group>"; };
+		F2B2D475B45EDFFE285FBA5A627E414F /* Libecdsa_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Libecdsa_swift-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1577E35FF704992AB95CD472491776C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09B3833E675DB80CB59C8350C81DC0AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AAF0F7E217E72111943271B73ACA965 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06F57A9E92A1109840B5799739F5789B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AA708EB35A8262263A679DE02E24332B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,36 +66,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C488BDADBF5544CE0EF2421576B5CFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B40F4248F3B43831D93F8EAB975ACD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26E43C1300CC278019C87AFC2F05BA67 /* libecdsa */ = {
+		2C43802AE1414EC59422DA3D4D44038E /* Libecdsa_swift */ = {
 			isa = PBXGroup;
 			children = (
-				42C3333723B26CA8805708E372D7ED1F /* libecdsa.h */,
+				A7656C49CF8E55D07C61F56453D1C14F /* Libecdsa.swift */,
+				C239A8C096980B7B32730DED88AB506C /* Libecdsa_swift.h */,
+				70B2AB482FAC3E4EBDADAEC58B7E13C0 /* Frameworks */,
+				75FFD0D23D3731A1743BFF7258801E9B /* libecdsa */,
+				D6BADDB252304FFBE7CC40CE18E209FF /* Pod */,
+				5B9306DDE6182C47942B4E4DF038D8EF /* Support Files */,
 			);
-			name = libecdsa;
-			path = libecdsa;
-			sourceTree = "<group>";
-		};
-		2DB2A3DF3E3BFA59A8D04D4794BF57B8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F05251EF1BF1A7D931393172D2CA2061 /* Libecdsa_swift */,
-				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
-				A845402EF959A57A4640F2A4F5155943 /* Zip */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EE2FA79D345E26416A8E6563BE8C8E2 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A30424352E225666E64EC75A36B3C768 /* MTA.h */,
-				3972818AC70A6C89D06313F904B7061C /* MTAConfig.h */,
-				CA336ED8726D60AF29D7257D8C6FB6A6 /* Frameworks */,
-			);
-			name = Core;
+			name = Libecdsa_swift;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -186,37 +99,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B7BB17F5B5CCBE84ECE0243B557B0AA /* MTA */ = {
+		5B9306DDE6182C47942B4E4DF038D8EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3EE2FA79D345E26416A8E6563BE8C8E2 /* Core */,
-				FBD965F012C50F9565C41E435C066B59 /* Support Files */,
+				19CDAAB024B52D382FCAE54922DD325E /* Libecdsa_swift.modulemap */,
+				F2B2D475B45EDFFE285FBA5A627E414F /* Libecdsa_swift-dummy.m */,
+				005A8897D9D15D9EF26D1C2EC075F15F /* Libecdsa_swift-Info.plist */,
+				5F405EA38CF2352BA44BBDF9D28929F1 /* Libecdsa_swift-prefix.pch */,
+				A691E1E3AFAB365F1C36C469B6B2EFF5 /* Libecdsa_swift.debug.xcconfig */,
+				1177FFA90AA56D2106C78BCA5DB58752 /* Libecdsa_swift.release.xcconfig */,
 			);
-			name = MTA;
-			path = MTA;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Libecdsa_swift";
 			sourceTree = "<group>";
 		};
-		65B6CC5AC57A0C3FDAEA57CD57A52FEC /* Pod */ = {
+		70B2AB482FAC3E4EBDADAEC58B7E13C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BF7647F52DE1D5B768D35291AED73CA /* Libecdsa_swift.modulemap */,
-				870721C0D69A87E5B5D5CE366F6B7FBF /* Libecdsa_swift.podspec */,
+				24CDC5813326CD03BFA84D702A959A4E /* libecdsa.a */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7725A08018C0B348506EE2483F6C476F /* Libecdsa_swift */ = {
+		75FFD0D23D3731A1743BFF7258801E9B /* libecdsa */ = {
 			isa = PBXGroup;
 			children = (
-				7C0D63BD9CEB26A0005CA9D2B767B77B /* Libecdsa.swift */,
-				85B6C9C33D856EA7617C918F7A3F00C2 /* Libecdsa_swift.h */,
-				A76B73C83F0D09441FF89545A11D8D08 /* Frameworks */,
-				26E43C1300CC278019C87AFC2F05BA67 /* libecdsa */,
-				65B6CC5AC57A0C3FDAEA57CD57A52FEC /* Pod */,
-				BBB56DEA80EFECA5ECCE5BF1162899E2 /* Support Files */,
+				0213098517DEB928E1D30DE350DB7C7D /* libecdsa.h */,
 			);
-			name = Libecdsa_swift;
-			path = ../../Libecdsa_swift;
+			name = libecdsa;
+			path = Libecdsa_swift/libecdsa;
+			sourceTree = "<group>";
+		};
+		9049DE97F88B9F3E1F3740DA5FE8DD31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F05251EF1BF1A7D931393172D2CA2061 /* Libecdsa_swift */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3F7D089EB7E72DD78982395B9718BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C43802AE1414EC59422DA3D4D44038E /* Libecdsa_swift */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -236,36 +164,6 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		A76B73C83F0D09441FF89545A11D8D08 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46747E0F455BCC82C61F7FAEA925127E /* libecdsa.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BBB56DEA80EFECA5ECCE5BF1162899E2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C0402C6756665902889C29A8A6ED482 /* Libecdsa_swift.modulemap */,
-				6BB63FD6E0519E385FB4B6B98F172589 /* Libecdsa_swift-dummy.m */,
-				654BBDF4EEF930DE7C2096EEDDC1F7ED /* Libecdsa_swift-Info.plist */,
-				C9D4F280AD57E27BA1FD70248513740E /* Libecdsa_swift-prefix.pch */,
-				BD1716173114C6B569CC0130AD7D5671 /* Libecdsa_swift.debug.xcconfig */,
-				B900CED02537211FECD9EDE3C913D70F /* Libecdsa_swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/Libecdsa_swift";
-			sourceTree = "<group>";
-		};
-		CA336ED8726D60AF29D7257D8C6FB6A6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				857CD0DC4A0B33603ADD3ADB58B86D94 /* libmtasdk.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,21 +176,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D8107C19C18143DD3F2D0A8589800E43 /* Development Pods */,
+				9B3F7D089EB7E72DD78982395B9718BD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D19CCA7E840EA11C1A97DE0D04CE0030 /* Pods */,
-				2DB2A3DF3E3BFA59A8D04D4794BF57B8 /* Products */,
+				9049DE97F88B9F3E1F3740DA5FE8DD31 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D19CCA7E840EA11C1A97DE0D04CE0030 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B7BB17F5B5CCBE84ECE0243B557B0AA /* MTA */,
-				EF19A68927273EE8E77F54C1A1697EAD /* Zip */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -303,91 +191,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8107C19C18143DD3F2D0A8589800E43 /* Development Pods */ = {
+		D6BADDB252304FFBE7CC40CE18E209FF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7725A08018C0B348506EE2483F6C476F /* Libecdsa_swift */,
+				2E7C72FB0C444207508F0936747E8792 /* Libecdsa_swift.modulemap */,
+				492683CB1CD2E4C0B6F99498CBAE294C /* Libecdsa_swift.podspec */,
+				89048DB958B00B414AD13D15F12CD22A /* LICENSE */,
+				634D99B70029FA378600919F67996D42 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E4ABCB3F69D62E39174F87792DF4586F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8760E6BC290819705893ED05A2D3BC87 /* Zip.modulemap */,
-				2379AF05483EE1320999B3A72B48EE16 /* Zip-dummy.m */,
-				62CD1996A1B3F23A13211D5550C2CAC2 /* Zip-Info.plist */,
-				7E490F4FE42D97918D75C1522408419A /* Zip-prefix.pch */,
-				14476C27928CE52AC57B4D1A22978442 /* Zip-umbrella.h */,
-				E4F80669A7D20B0D1EE9C67ABA570C71 /* Zip.debug.xcconfig */,
-				CF536851F02841544D2DC7C856B102C5 /* Zip.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Zip";
-			sourceTree = "<group>";
-		};
-		EF19A68927273EE8E77F54C1A1697EAD /* Zip */ = {
-			isa = PBXGroup;
-			children = (
-				2B8BAA0B2C1AD348007233EFD0AB9FF3 /* crypt.h */,
-				163ACE2B694A7B778791E09F7E9D69DB /* ioapi.c */,
-				33A8ACF5EC0A6F22624094548DBC9E4B /* ioapi.h */,
-				E47B4A6C5E41CE487695CC96F00CC135 /* Minizip.h */,
-				26043D869E993D1B7789DAB1CE0A8045 /* QuickZip.swift */,
-				FC8ECF3EF63142EC304DA8562542322C /* unzip.c */,
-				300E4CD8C012EFD02C2C5F8A34BDBF6E /* unzip.h */,
-				D751DB816F060F76B500DFB215DF68A2 /* zip.c */,
-				B2F132B5CD1AF7543DD41E7261607EAD /* zip.h */,
-				C647CC4C78D7B532A773ABEB61E1B7D0 /* Zip.h */,
-				5A9A3CB4217C14B80F99616578A1D865 /* Zip.swift */,
-				E8B9AB92487CBABCF507817A05124A06 /* ZipUtilities.swift */,
-				E4ABCB3F69D62E39174F87792DF4586F /* Support Files */,
-			);
-			name = Zip;
-			path = Zip;
-			sourceTree = "<group>";
-		};
-		FBD965F012C50F9565C41E435C066B59 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				55A45A98CD98D1542DD6BE0D85C1C929 /* MTA.debug.xcconfig */,
-				F9F992C6E847EFD92ED948106EC8A78E /* MTA.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MTA";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BF3E7A7B2C37DD6E36AA561F0409CE13 /* Headers */ = {
+		02079D6507CD4426E8BA8D1BC08E90D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5803467A0C3508149202527E7A84988 /* libecdsa.h in Headers */,
-				6B04C034156D06C3A7FAB4C6B5DEB999 /* Libecdsa_swift.h in Headers */,
+				BDC24CE412880B82B01F720F2C0C1690 /* libecdsa.h in Headers */,
+				C6007FDC8CBD7453FA343CB5BF52B7B5 /* Libecdsa_swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD57EB0AFA043C3B551E47268EAC8F60 /* Headers */ = {
+		09D72C0015A2EE5E9DB22B2E7EC3D4F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2528C5BDE1D6E311F946DD9085C0B0A2 /* crypt.h in Headers */,
-				BD4255859413EB574B09F339243C0596 /* ioapi.h in Headers */,
-				43DEE3E86469BDFB2636520B905FC7F7 /* Minizip.h in Headers */,
-				7816AB4B83A43BE97599ECE1A44B2B25 /* unzip.h in Headers */,
-				B7841CF90E4747FC150AA7EFA6C01723 /* zip.h in Headers */,
-				B9B84CEAE6D14073796C232D48807ABE /* Zip.h in Headers */,
-				21D7A013E4D46C527E6AC41B10B983C5 /* Zip-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F44C2A04AFBC7A2FCF11BEE1C3BF2434 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93F21AD70ED3394EBAB05F9E4D682349 /* Pods-Example-umbrella.h in Headers */,
+				DB0832E68248BC2586122A5D0AA865D8 /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,19 +227,17 @@
 /* Begin PBXNativeTarget section */
 		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D95494EA24265425919E7CF6726E69A /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = 81EC9DD9A6B922001B69E9B701CD96BB /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				F44C2A04AFBC7A2FCF11BEE1C3BF2434 /* Headers */,
-				E466245108A601357FDD77107D6E10C2 /* Sources */,
-				6AAF0F7E217E72111943271B73ACA965 /* Frameworks */,
-				EC3381904922C514AABA388D3F7811B0 /* Resources */,
+				09D72C0015A2EE5E9DB22B2E7EC3D4F7 /* Headers */,
+				77F99AEEAD0405F49386B6BC9B1C2851 /* Sources */,
+				C488BDADBF5544CE0EF2421576B5CFA2 /* Frameworks */,
+				C4846D48016F00DB075552C239122AA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				23815E680A482EE6CC623A8E6C60968C /* PBXTargetDependency */,
-				3E6590E8118655144C4AE61030993843 /* PBXTargetDependency */,
-				8E64AAA9977682B41F3DBFD6852FFCAC /* PBXTargetDependency */,
+				39BFF3483711E8AD576CB5FA22CEAFB3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -419,8 +248,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 614557B84176B2C52C361C518B55C7E8 /* Build configuration list for PBXNativeTarget "Libecdsa_swift" */;
 			buildPhases = (
-				BF3E7A7B2C37DD6E36AA561F0409CE13 /* Headers */,
-				1B550672EF458EC4D06B64A956B2C119 /* Sources */,
+				02079D6507CD4426E8BA8D1BC08E90D3 /* Headers */,
+				E0BC2BC72C37DAA0CC11F17213933BA5 /* Sources */,
 				AA708EB35A8262263A679DE02E24332B /* Frameworks */,
 				1FA6E4A0E0ABA73D8AAD9C0F26146192 /* Resources */,
 			);
@@ -431,24 +260,6 @@
 			name = Libecdsa_swift;
 			productName = Libecdsa_swift;
 			productReference = F05251EF1BF1A7D931393172D2CA2061 /* Libecdsa_swift */;
-			productType = "com.apple.product-type.framework";
-		};
-		31708EE6929C61C0EDA6F5DAE3AF9DB7 /* Zip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 872C51AA4E76C84A200F88EEA84045DD /* Build configuration list for PBXNativeTarget "Zip" */;
-			buildPhases = (
-				CD57EB0AFA043C3B551E47268EAC8F60 /* Headers */,
-				EA3B5EB1EF3FB3B3C6937DF16583C856 /* Sources */,
-				1577E35FF704992AB95CD472491776C5 /* Frameworks */,
-				75951C8A6DB4D9ADCB8517BE8A8C04B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Zip;
-			productName = Zip;
-			productReference = A845402EF959A57A4640F2A4F5155943 /* Zip */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -469,14 +280,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2DB2A3DF3E3BFA59A8D04D4794BF57B8 /* Products */;
+			productRefGroup = 9049DE97F88B9F3E1F3740DA5FE8DD31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0B603E7E1946D161C3737F0C09E07C67 /* Libecdsa_swift */,
-				B36395EB51A1BA84075C3DD4DCCCFFE8 /* MTA */,
 				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
-				31708EE6929C61C0EDA6F5DAE3AF9DB7 /* Zip */,
 			);
 		};
 /* End PBXProject section */
@@ -489,14 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75951C8A6DB4D9ADCB8517BE8A8C04B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC3381904922C514AABA388D3F7811B0 /* Resources */ = {
+		C4846D48016F00DB075552C239122AA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -506,62 +308,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B550672EF458EC4D06B64A956B2C119 /* Sources */ = {
+		77F99AEEAD0405F49386B6BC9B1C2851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BF48C1C7386684CAE1559C14F03931 /* Libecdsa.swift in Sources */,
-				E33C5D65143B8E9223A4E7C273C0BC7B /* Libecdsa_swift-dummy.m in Sources */,
+				091BB51AD1A6FB3C62F75DBA110B1FF5 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E466245108A601357FDD77107D6E10C2 /* Sources */ = {
+		E0BC2BC72C37DAA0CC11F17213933BA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF91097BA5810138D85A2942B76652F /* Pods-Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA3B5EB1EF3FB3B3C6937DF16583C856 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				214DB630573496781FE1CA9223954DCC /* ioapi.c in Sources */,
-				C34C57C2970C847AA6793E9ABBA58AF9 /* QuickZip.swift in Sources */,
-				C954FF3A0701089C0E6C804ECA59F99A /* unzip.c in Sources */,
-				B068B29F89D57C1FA1C301F22A76BF79 /* zip.c in Sources */,
-				4E3398A2FB4ADD6712AA9E6861DB850B /* Zip.swift in Sources */,
-				A7AD2F6663541243DE209D807EE445AD /* Zip-dummy.m in Sources */,
-				37C262B2C68DC3D57668006089053CDC /* ZipUtilities.swift in Sources */,
+				1E08C8E337ECB4BBC5AF9AB365ECC90B /* Libecdsa.swift in Sources */,
+				5E7D06E88DF4199F2BC1AE6A7DA5CC39 /* Libecdsa_swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23815E680A482EE6CC623A8E6C60968C /* PBXTargetDependency */ = {
+		39BFF3483711E8AD576CB5FA22CEAFB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Libecdsa_swift;
 			target = 0B603E7E1946D161C3737F0C09E07C67 /* Libecdsa_swift */;
-			targetProxy = 2981AF71E16B11A7062620C80AFAEA48 /* PBXContainerItemProxy */;
-		};
-		3E6590E8118655144C4AE61030993843 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MTA;
-			target = B36395EB51A1BA84075C3DD4DCCCFFE8 /* MTA */;
-			targetProxy = 5D053148C53395467EC51BA5D429499A /* PBXContainerItemProxy */;
-		};
-		8E64AAA9977682B41F3DBFD6852FFCAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Zip;
-			target = 31708EE6929C61C0EDA6F5DAE3AF9DB7 /* Zip */;
-			targetProxy = A783BFD99CDD3E75B095BD4957B1CF40 /* PBXContainerItemProxy */;
+			targetProxy = B02853206E88D39C7397AA45163A6B37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DBB8ECC389308E106D369D4FA9696C5 /* Release */ = {
+		26671B3A4F6CC8BCAC39EA174E62A424 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
 			buildSettings = {
@@ -598,111 +374,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		20A9497C2176DD873C2CA88374AB8EED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B900CED02537211FECD9EDE3C913D70F /* Libecdsa_swift.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Libecdsa_swift/Libecdsa_swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Libecdsa_swift/Libecdsa_swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Libecdsa_swift/Libecdsa_swift.modulemap";
-				PRODUCT_MODULE_NAME = Libecdsa_swift;
-				PRODUCT_NAME = Libecdsa_swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		22320C46D11F8D2993A56B20D8410D9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF536851F02841544D2DC7C856B102C5 /* Zip.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Zip/Zip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Zip/Zip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Zip/Zip.modulemap";
-				PRODUCT_MODULE_NAME = Zip;
-				PRODUCT_NAME = Zip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		34167FCB04DE1D1F415E3F4294D13B3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F80669A7D20B0D1EE9C67ABA570C71 /* Zip.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Zip/Zip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Zip/Zip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Zip/Zip.modulemap";
-				PRODUCT_MODULE_NAME = Zip;
-				PRODUCT_NAME = Zip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -770,19 +441,40 @@
 			};
 			name = Debug;
 		};
-		4C1623A24AC5BAD75755B0F19C788927 /* Debug */ = {
+		6A6FF7844B116EC0FBA0C7859196F5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55A45A98CD98D1542DD6BE0D85C1C929 /* MTA.debug.xcconfig */;
+			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -848,9 +540,9 @@
 			};
 			name = Release;
 		};
-		B4580963FCFA42BCBF6E7CF75C72C72D /* Debug */ = {
+		8B79CEDBB9EE775A0DA77D30403F2B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD1716173114C6B569CC0130AD7D5671 /* Libecdsa_swift.debug.xcconfig */;
+			baseConfigurationReference = A691E1E3AFAB365F1C36C469B6B2EFF5 /* Libecdsa_swift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -876,35 +568,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BABE8E3DE9114744B8DF846A7A9E80AD /* Release */ = {
+		F9CC19380563EB1CC48CBFCDD6EC9492 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9F992C6E847EFD92ED948106EC8A78E /* MTA.release.xcconfig */;
+			baseConfigurationReference = 1177FFA90AA56D2106C78BCA5DB58752 /* Libecdsa_swift.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EFA7C49E1FA8A46ABD804D586B38F5DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -914,28 +588,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Libecdsa_swift/Libecdsa_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Libecdsa_swift/Libecdsa_swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Libecdsa_swift/Libecdsa_swift.modulemap";
+				PRODUCT_MODULE_NAME = Libecdsa_swift;
+				PRODUCT_NAME = Libecdsa_swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -949,38 +623,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4827A2C08A2F6FD29EF91E9259330DE0 /* Build configuration list for PBXAggregateTarget "MTA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C1623A24AC5BAD75755B0F19C788927 /* Debug */,
-				BABE8E3DE9114744B8DF846A7A9E80AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D95494EA24265425919E7CF6726E69A /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFA7C49E1FA8A46ABD804D586B38F5DF /* Debug */,
-				0DBB8ECC389308E106D369D4FA9696C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		614557B84176B2C52C361C518B55C7E8 /* Build configuration list for PBXNativeTarget "Libecdsa_swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4580963FCFA42BCBF6E7CF75C72C72D /* Debug */,
-				20A9497C2176DD873C2CA88374AB8EED /* Release */,
+				8B79CEDBB9EE775A0DA77D30403F2B5F /* Debug */,
+				F9CC19380563EB1CC48CBFCDD6EC9492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		872C51AA4E76C84A200F88EEA84045DD /* Build configuration list for PBXNativeTarget "Zip" */ = {
+		81EC9DD9A6B922001B69E9B701CD96BB /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34167FCB04DE1D1F415E3F4294D13B3D /* Debug */,
-				22320C46D11F8D2993A56B20D8410D9E /* Release */,
+				6A6FF7844B116EC0FBA0C7859196F5B8 /* Debug */,
+				26671B3A4F6CC8BCAC39EA174E62A424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
